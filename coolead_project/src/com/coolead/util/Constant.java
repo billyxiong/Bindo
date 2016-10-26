@@ -103,6 +103,10 @@ public class Constant {
 	public static final String owner_progress_report_comment="这个月工程进展正常。。。";
 	//业主单位形象进度月报退回描述
 	public static final String reback_owner_progress_report_comment="测试退回。。。";
+	//定义签证标题
+	public static final String visa_title="签证测试。。。。。";
+	//定义签证内容
+	public static final String visa_content="。。。这是一个测试签证。。。。。";
 }
 
 
