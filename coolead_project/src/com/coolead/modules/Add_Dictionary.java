@@ -8,10 +8,10 @@ import com.coolead.util.Constant;
 public class Add_Dictionary {
 	public static void execute(WebDriver driver ) throws Exception{
 		DictionaryPage add_dictionary = new DictionaryPage(driver);
-		add_dictionary.user_menu_system().click();
+		add_dictionary.dictionary_system().click();
 		Thread.sleep(1000);
 		add_dictionary.dictionary_menu().click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		add_dictionary.dictionary_new_button().click();
 		Thread.sleep(1000);
 		add_dictionary.dictionay_type_input().sendKeys(Constant.dictionary_type);

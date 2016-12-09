@@ -15,8 +15,8 @@ public class DictionaryPage {
 	}
 	
 	//系统管理菜单
-	public WebElement user_menu_system() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.user.system"));		
+	public WebElement dictionary_system() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.dictionary.system"));		
 		return element;
 	}
 	

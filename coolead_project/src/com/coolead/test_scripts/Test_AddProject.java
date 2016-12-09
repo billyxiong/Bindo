@@ -32,7 +32,7 @@ public class Test_AddProject {
 
   @AfterMethod
   public void afterMethod() throws Exception {	    		  
-	     driver.navigate().refresh();
+	    // driver.navigate().refresh();
 	   //driver.quit();
 }
 }

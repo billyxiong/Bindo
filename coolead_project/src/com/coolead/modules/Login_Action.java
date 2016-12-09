@@ -17,18 +17,18 @@ public class Login_Action {
 		
 //		Log.info("----------------输入用户名--------------");
 		loginPage.username().sendKeys(username);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	
 		
 //		Log.info("-----------------输入密码-----------------");
 		loginPage.password().sendKeys(password);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	
 		
 //		Log.info("-----------------点击登录功能按钮-------------");
 		loginPage.loginButton().click();
 		
 //		Log.info("-----------点击登录后休眠5秒-------------------");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 }

@@ -161,4 +161,24 @@ public class AddProjectPage {
 		element = driver.findElement(objectMap.getLocator("em.project.add_construction"));
 		return element;
 	}
+	
+	public WebElement project_contactor_click() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.project.contactor_click"));
+		return element;
+	}
+	
+	public WebElement project_contactor_name_input() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.project.contactor_name"));
+		return element;
+	}
+	
+	public WebElement project_contactor_search_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.project.contactor_search"));
+		return element;
+	}
+	
+	public WebElement project_contactor_select_confirm() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.project.contactor_select_confirm"));
+		return element;
+	}
 }

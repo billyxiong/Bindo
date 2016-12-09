@@ -44,6 +44,31 @@ public class DocPage {
 		return element;
 	}
 	
+	//关闭新增窗口
+	public WebElement em_doc_folder_close() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.new_folder_close"));		
+		return element;
+	}
+	
+	//勾选文件夹复选框
+	public WebElement em_doc_folder_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.folder_select"));		
+		return element;
+	}
+	
+	//删除文件夹按钮
+	public WebElement em_doc_folder_delete() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.folder_delete_button"));		
+		return element;
+	}
+	
+	//删除文件夹确认
+	public WebElement em_doc_folder_delete_confirm() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.folder_delete_confirm"));		
+		return element;
+	}
+	
+	
 	//设置权限按钮
 	public WebElement em_doc_set_rights_button() throws Exception{
 		element = driver.findElement(objectMap.getLocator("em.doc.Set_Rights_button"));		
@@ -59,6 +84,12 @@ public class DocPage {
 	//新增授权项目
 	public WebElement em_doc_add_rights_project_new() throws Exception{
 		element = driver.findElement(objectMap.getLocator("em.doc.add_rights_project_new"));		
+		return element;
+	}
+	
+	//点选项目标签
+	public WebElement em_doc_add_rights_project_tag() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.project_select_tag"));		
 		return element;
 	}
 	
@@ -92,6 +123,12 @@ public class DocPage {
 		return element;
 	}
 	
+	//点击确认指定项目
+	public WebElement em_doc_project_select_tag() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.project_select_tag"));		
+		return element;
+	}
+	
 	//权限用户搜索框
 	public WebElement em_doc_user_search_input() throws Exception{
 		element = driver.findElement(objectMap.getLocator("em.doc.user_search_input"));		
@@ -99,8 +136,8 @@ public class DocPage {
 	}
 	
 	//权限用户选择按钮
-	public WebElement em_doc_user_select_button() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.doc.user_select_button"));		
+	public WebElement em_doc_user_select_tag() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.user_select_tag"));		
 		return element;
 	}
 	
@@ -151,4 +188,59 @@ public class DocPage {
 		element = driver.findElement(objectMap.getLocator("em.doc.add_right_close"));		
 		return element;
 	}
+	
+	//上传文件按钮
+	public WebElement em_doc_upload_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.upload_button"));		
+		return element;
+	}
+	
+	//文件选择按钮
+	public WebElement em_doc_file_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_select"));		
+		return element;
+	}
+	
+	//文件上传关闭按钮	
+	public WebElement em_doc_file_upload_close() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_upload_close"));		
+		return element;
+	}
+	
+	//文件夹点击链接	
+	public WebElement em_doc_folder_link() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.folder_link"));		
+		return element;
+	}
+	
+	//文件上传提交按钮
+	public WebElement em_doc_upload_submit() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_upload_submit"));		
+		return element;
+	}
+	
+	//文件选择按钮
+	public WebElement em_file_del_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_del_select"));		
+		return element;
+	}
+	
+	//文件删除按钮
+	public WebElement em_file_del_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_del_button"));		
+		return element;
+	}
+	
+	//文件删除确认按钮
+	public WebElement em_file_del_confirm() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.file_del_confirm"));		
+		return element;
+	}	
+	
+	//页面上方进入文档管理首页的链接
+	public WebElement em_doc_homepage_link() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.doc.homepage_link"));		
+		return element;
+	}	
+	
 }

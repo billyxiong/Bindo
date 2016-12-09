@@ -97,4 +97,39 @@ public class TaskPage {
 		return element;
 	}
 	
+	//项目名称选择
+	public WebElement project_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.project_select"));
+		return element;
+	}
+	
+	//任务类型选择
+	public WebElement type_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.type_select"));
+		return element;
+	}
+	
+	//任务状态选择框
+	public WebElement status_select() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.status_select"));
+		return element;
+	}
+	
+	//布置人输入框
+	public WebElement distributor_input() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.distributor_input"));
+		return element;
+	}
+	
+	//执行输入框
+	public WebElement executor_input() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.executor_input"));
+		return element;
+	}
+	
+	//查询功能按钮
+	public WebElement search_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("em.task.list.search_button"));
+		return element;
+	}	
 }

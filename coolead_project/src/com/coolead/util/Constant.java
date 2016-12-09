@@ -8,6 +8,8 @@ public class Constant {
 	public static final String username = "cooleadadmin";
 	//定义密码常量
 	public static final String password = "000000";
+	//定义新密码
+	public static final String pasword_new = "111111";
 	//登录操作校验位
 	public static final String assertText = "项目";
 	//项目名称常量
@@ -45,8 +47,10 @@ public class Constant {
 	public static final String project_organization="//span[contains(text(),'" + Constant.org_name  +"')]";
     //选择用户复选框
 	public static final String user_select="//td[contains(text(),'" + Constant.real_name + "')]/preceding::em[2]";
-    //创建项目选择建设单位
-	public static final String project_constructor="//div[1]//tbody/tr[3]/td[2]/div/search-box//span[contains(text(),'" +Constant.org_shot_name +"')]";
+    //创建项目选择联系人
+	public static final String project_contactor="//div/div/table/tbody/tr/td[contains(text(),'" + Constant.real_name +"')]";
+	//创建项目选择建设单位
+	public static final String project_constructor="//tbody/tr[3]/td[2]/div/search-box/div/div[2]/div[2]/div/div/ol/li[51]/div/div/span[contains(text(),'" +Constant.org_shot_name +"')]";
 	//创建项目选择设计单位
 	public static final String project_desinger="//*[@id='designUnitId']/div/div[2]/div[2]/div/div/ol//div/div/span[contains(text(),'" + Constant.org_shot_name +"')]";
 	//创建项目选择所属部门
@@ -54,7 +58,7 @@ public class Constant {
 	//创建项目选择监理单位
 	public static final String project_supervisor="//div/form/table[1]/tbody/tr[4]/td[4]//div/div/span[contains(text(),'"+ Constant.org_shot_name +"')]";
 	//创建项目选择施工单位
-	public static final String project_constructor_click="//td[3]/div/search-box/div/div[2]/div[2]/div/div/ol/li[49]/div/div/span[contains(text(),'" + Constant.org_name + "')]";
+	public static final String project_shigong_click="//tbody/tr[1]/td[3]/div/search-box/div/div[2]/div[2]/div/div/ol/li[51]/div/div/span[contains(text(),'" + Constant.org_name + "')]";
 	//定义时间面板开始时间
 	public static final String starte_date="2016-09-18";
 	//定义时间面板结束时间
@@ -107,6 +111,35 @@ public class Constant {
 	public static final String visa_title="签证测试。。。。。";
 	//定义签证内容
 	public static final String visa_content="。。。这是一个测试签证。。。。。";
+	//定义文件夹排序号
+	public static final String doc_order="0";
+	//定义文件夹名称
+	public static final String doc_name="这只是一个测试目录";
+	//定义任务类型
+	public static final String task_type="其它任务";
+	//定义任务状态
+	public static final String task_status="已验收";
+	//定义任务布置人
+	public static final String task_distributor="萌妹子";
+	//任务执行人
+	public static final String task_executor="萌妹子";
+	//整改列表状态定义
+	public static final String change_status="已验收";
+	//整改列表类型定义
+	public static final String change_type="质量整改";
+	//整改执行人定义
+	public static final String change_executor="C罗";
+	//报告类型
+	public static final String report_type="施工单位工作日报";
+	//报告发起人
+	public static final String report_author="C罗";
+	//手机端存储上限
+	public static final String mem="10";	
+	//创建底稿标题
+	public static final String draft_summary="测试底稿库";
+	//创建底稿内容
+	public static final String draft_content="呵呵。。。";
+	
 }
 
 

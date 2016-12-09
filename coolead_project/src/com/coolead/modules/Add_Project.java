@@ -47,19 +47,18 @@ public class Add_Project {
 		
 //		new Actions(driver).moveToElement(addProjectPage.submit_button()).perform();
 //		Thread.sleep(3000);
-		
+//下拉框列表选择建设单位		
 		addProjectPage.construct_click().click();
-		Thread.sleep(1000);
-		//addProjectPage.construct_value().click();	
+		Thread.sleep(2000);
 		driver.findElement(By.xpath(Constant.project_constructor)).click();
 		
 		addProjectPage.department_click().click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		//addProjectPage.department_value().click();
 		driver.findElement(By.xpath(Constant.project_department)).click();
 		
 		addProjectPage.designer_click().click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		//addProjectPage.designer_value().click();
 		driver.findElement(By.xpath(Constant.project_desinger)).click();
 		
@@ -74,6 +73,7 @@ public class Add_Project {
 		//removeAttribute.executeScript("var setDate=document.getElementByxpath(\"//*[@id='coolead-block']/div[1]/div/div[3]/div[2]/div/form/table[1]/tbody/tr[5]/td[4]/div/div/input\");setDate.removeAttribute('readonly');"); 
 		//addProjectPage.end_date().sendKeys(Constant.end_date);
 		
+		
 		addProjectPage.start_date().click();
 		Thread.sleep(1000);
 		addProjectPage.start_date_button().click();
@@ -83,13 +83,22 @@ public class Add_Project {
 		addProjectPage.end_date_button().click();
 		
 		addProjectPage.build_area().sendKeys(""+(int)(Math.random()*100));
-		new Select(addProjectPage.subject_list()).selectByVisibleText(Constant.subject_name);
+		
+		//点击施工单位下拉框列表
 		addProjectPage.project_construction().click();
-
-		driver.findElement(By.xpath(Constant.project_constructor_click)).click();
-		
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(Constant.project_shigong_click)).click();
+		new Select(addProjectPage.subject_list()).selectByVisibleText(Constant.subject_name);
+		Thread.sleep(1000);
 		addProjectPage.project_construction_add_button().click();
-		
+		Thread.sleep(1000);
+		addProjectPage.project_contactor_click().click();
+		Thread.sleep(1000);
+		addProjectPage.project_contactor_name_input().sendKeys(Constant.real_name);
+		addProjectPage.project_contactor_search_button().click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(Constant.project_contactor)).click();
+		addProjectPage.project_contactor_select_confirm().click();
 		addProjectPage.submit_button().click();		
 		Thread.sleep(1000);
 		

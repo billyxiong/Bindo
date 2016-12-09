@@ -35,27 +35,27 @@ public class AddSubjectPage {
 	}	
 	
 	public WebElement subject_code() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.dictionary.code"));		
+		element = driver.findElement(objectMap.getLocator("em.dictionary.subject_code"));		
 		return element;
 	}	
 	
 	public WebElement subject_name() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.dictionary.name"));		
+		element = driver.findElement(objectMap.getLocator("em.dictionary.subject_name"));		
 		return element;
 	}
 	
 	public WebElement subject_value() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.dictionary.value"));		
+		element = driver.findElement(objectMap.getLocator("em.dictionary.subject_value"));		
 		return element;
 	}
 	
 	public WebElement subject_order() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.dictionary.order"));		
+		element = driver.findElement(objectMap.getLocator("em.dictionary.subject_order"));		
 		return element;
 	}
 	
 	public WebElement subject_save_button() throws Exception{
-		element = driver.findElement(objectMap.getLocator("em.dictionary.save_button"));		
+		element = driver.findElement(objectMap.getLocator("em.dictionary.subject_save_button"));		
 		return element;
 	}
 }
