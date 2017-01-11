@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<failed>
+<err_assert_info   method="LoginTest.loginFail.1484024041939">
+<span class="err_span">超时找不到所需页面元素[//a[text()='账户登录']]:failed</span></br>
+</err_assert_info>
+<err_assert_info   method="LoginTest.loginFail.1484024041939">
+<span class="err_span">&lt;a class="clickbox" href="#url"&gt;
+&lt;img src="snapshot/2017-01-10 125401706.jpg" height="100" width="100" alt="" /&gt;
+&lt;b class="lightbox"&gt;
+&lt;b class="light"&gt;&lt;/b&gt;
+&lt;b class="box"&gt;
+&lt;img src="snapshot/2017-01-10 125401706.jpg" height="530" width="1024" onmousewheel="return bigimg(this)" alt="" /&gt;
+&lt;span&gt;滚动鼠标缩放大小,点击X关闭当前图片，返回报表界面.&lt;br /&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;/b&gt;
+&lt;/b&gt;
+&lt;/a&gt;
+&lt;br class="clear" /&gt;
+&lt;a class="clickbox" href="#url"&gt;点击查看大图&lt;b class="lightbox"&gt;&lt;b class="light"&gt;&lt;/b&gt;&lt;b class="box"&gt;&lt;img src="snapshot/2017-01-10 125401706.jpg" height="530" width="1024" onmousewheel="return bigimg(this)" alt="" /&gt;&lt;span&gt;滚动鼠标缩放大小,点击X关闭当前图片，返回报表界面.&lt;br /&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/b&gt;&lt;/b&gt; &lt;/a&gt;
+&lt;/br&gt;&lt;div id="close"&gt;&lt;/div&gt;
+</span>
+</err_assert_info>
+<err_assert_info_StackTrace   method="LoginTest.loginFail.1484024041939">
+<span class="err_span" >Timed out after 20 seconds waiting for org.webdriver.patatiumwebui.utils.ElementAction$2@63f259c3
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201701031452', ip: '192.168.0.252', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2c57c99e-c3cb-4a42-b6e4-b56851853ba6</span></br>
+<span class="err_span">LoginTest.loginFail(LoginTest.java:54)</span></br>
+</err_assert_info_StackTrace>
+<err_assert_info   method="LoginTest.loginFail.1484024064513">
+<span class="err_span">超时找不到所需页面元素[//a[text()='账户登录']]:failed</span></br>
+</err_assert_info>
+<err_assert_info   method="LoginTest.loginFail.1484024064513">
+<span class="err_span">&lt;a class="clickbox" href="#url"&gt;
+&lt;img src="snapshot/2017-01-10 125424363.jpg" height="100" width="100" alt="" /&gt;
+&lt;b class="lightbox"&gt;
+&lt;b class="light"&gt;&lt;/b&gt;
+&lt;b class="box"&gt;
+&lt;img src="snapshot/2017-01-10 125424363.jpg" height="530" width="1024" onmousewheel="return bigimg(this)" alt="" /&gt;
+&lt;span&gt;滚动鼠标缩放大小,点击X关闭当前图片，返回报表界面.&lt;br /&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;/b&gt;
+&lt;/b&gt;
+&lt;/a&gt;
+&lt;br class="clear" /&gt;
+&lt;a class="clickbox" href="#url"&gt;点击查看大图&lt;b class="lightbox"&gt;&lt;b class="light"&gt;&lt;/b&gt;&lt;b class="box"&gt;&lt;img src="snapshot/2017-01-10 125424363.jpg" height="530" width="1024" onmousewheel="return bigimg(this)" alt="" /&gt;&lt;span&gt;滚动鼠标缩放大小,点击X关闭当前图片，返回报表界面.&lt;br /&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/b&gt;&lt;/b&gt; &lt;/a&gt;
+&lt;/br&gt;&lt;div id="close"&gt;&lt;/div&gt;
+</span>
+</err_assert_info>
+<err_assert_info_StackTrace   method="LoginTest.loginFail.1484024064513">
+<span class="err_span" >Timed out after 20 seconds waiting for org.webdriver.patatiumwebui.utils.ElementAction$2@63fbfaeb
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201701031452', ip: '192.168.0.252', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2c57c99e-c3cb-4a42-b6e4-b56851853ba6</span></br>
+<span class="err_span">LoginTest.loginFail(LoginTest.java:54)</span></br>
+</err_assert_info_StackTrace>
+</failed>
