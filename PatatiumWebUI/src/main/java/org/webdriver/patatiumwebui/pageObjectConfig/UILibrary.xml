@@ -14,9 +14,12 @@
         Value:元素定位信息，如果是id,name,class，linktext直接把网页元素对应的这些属性值写上即可，如果是xpath定位方式，
         需要填写正确的xpath语法格式。
         Desc:元素的描述，元素的中文描述信息-->
+        
+        <!--  
 		<locator type="xpath" timeout="3" value="//a[text()='账户登录']"  desc="账户登录">账户登录</locator>
-		<locator type="xpath" timeout="3" value="//input[@id='loginname']"  desc="用户名">用户名输入框</locator>
-		<locator type="id" timeout="3" value="nloginpwd"  desc="密码">密码输入框</locator>
-		<locator type="id" timeout="3" value="loginsubmit"  desc="登录">登录按钮</locator>
+		-->
+		<locator type="xpath" timeout="3" value="//input[@id='them1-username']"  desc="用户名">用户名输入框</locator>
+		<locator type="xpath" timeout="3" value="//*[@id='password']"  desc="密码">密码输入框</locator>
+		<locator type="xpath" timeout="3" value="//button[contains(text(),'登录')]"  desc="登录">登录按钮</locator>
 	</page>
 </map>

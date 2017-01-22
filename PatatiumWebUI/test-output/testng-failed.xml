@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="mailTitle" value="Webdriver中文社区-自动化测试报告"/>
+  <parameter name="UserName" value=""/>
+  <parameter name="smtpPort" value=""/>
+  <parameter name="reportTitle" value="Webdriver中文社区-自动化测试报告"/>
+  <parameter name="nodeURL" value=""/>
+  <parameter name="smtpPassWord" value="test123456"/>
+  <parameter name="reportUrl" value=""/>
+  <parameter name="PassWord" value=""/>
+  <parameter name="smtpHost" value=""/>
+  <parameter name="driver" value="FirefoxDriver"/>
+  <parameter name="smtpUserName" value="trexliushao@163.com"/>
+  <parameter name="recipients" value=""/>
+  <parameter name="BaseUrl" value="http://192.168.1.75:8080/Web/#/login"/>
+  <parameter name="logUrl" value=""/>
+  <listeners>
+    <listener class-name="org.webdriver.patatiumwebui.utils.TestListener"/>
+    <listener class-name="org.webdriver.patatiumwebui.utils.TestReport"/>
+  </listeners>
+  <test name="登录失败测试用例：数据驱动(failed)">
+    <classes>
+      <class name="LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="loginFail" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- LoginTest -->
+    </classes>
+  </test> <!-- 登录失败测试用例：数据驱动(failed) -->
+  <test name="登录成功测试用例(failed)">
+    <classes>
+      <class name="LoginTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- LoginTest -->
+    </classes>
+  </test> <!-- 登录成功测试用例(failed) -->
+</suite> <!-- Failed suite [Suite] -->

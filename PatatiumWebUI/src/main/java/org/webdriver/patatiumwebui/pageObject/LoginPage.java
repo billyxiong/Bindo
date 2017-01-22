@@ -17,11 +17,11 @@ getLocatorMap();
 * @return
 * @throws IOException
 */
-public Locator 账户登录() throws IOException
- {
-   Locator locator=getLocator("账户登录");
-   return locator;
- }
+//public Locator 账户登录() throws IOException
+//{
+//   Locator locator=getLocator("账户登录");
+//   return locator;
+// }
 
 /***
 * 用户名

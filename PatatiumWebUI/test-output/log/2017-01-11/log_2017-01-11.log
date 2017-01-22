@@ -1,0 +1,303 @@
+[2017-01-11 09:52:04,446] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 09:52:04,512] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 09:52:45,443] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 09:52:47,096] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-01-11 09:52:47,143] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:47,674] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:48,199] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:48,727] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:49,252] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:49,782] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:50,307] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:50,822] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:51,342] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:51,862] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:52,387] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:52,911] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:53,438] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:53,969] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:54,492] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:55,014] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:55,537] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:52:56,054] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:07,320] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 09:53:07,321] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 09:53:18,816] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 09:53:20,556] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-01-11 09:53:20,588] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:21,105] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:21,632] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:22,150] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:22,673] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:23,202] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:23,741] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:24,258] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:25,009] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 09:53:26,102] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 09:53:27,120] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:27:18,765] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 14:27:18,826] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 14:27:40,977] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:27:50,896] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:27:50,978] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:51,660] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:52,169] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:52,697] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:53,226] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:53,753] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:54,282] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:54,797] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:55,336] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:55,868] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:56,407] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:56,940] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:57,468] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:58,002] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:58,543] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:59,078] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:27:59,604] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:00,133] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:00,662] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:01,189] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:01,729] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:02,258] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:02,776] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:03,303] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:03,845] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:04,361] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:04,870] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:05,395] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:05,925] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:06,517] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:07,041] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:07,567] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:08,091] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:08,633] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:09,164] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:09,696] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:10,233] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:10,768] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:11,297] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:11,322] INFO  org.webdriver.patatiumwebui.utils.ElementAction 超时无法定位页面元素
+[2017-01-11 14:28:12,370] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 142811390.jpg
+[2017-01-11 14:28:12,371] INFO  org.webdriver.patatiumwebui.utils.ElementAction 2017-01-11 142811390
+[2017-01-11 14:28:12,379] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:28:13,242] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 14:28:13,244] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 14:28:13,244] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 14:28:13,256] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:28:13,677] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:28:13,684] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:14,192] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:14,708] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:15,232] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:15,756] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:16,278] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:16,804] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:17,328] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:17,852] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:18,374] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:18,899] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:19,423] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:19,942] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:20,466] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:21,214] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:21,740] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:22,252] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:22,966] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:23,488] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:24,011] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:24,528] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:25,051] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:25,572] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:26,094] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:26,619] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:27,141] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:27,664] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:28,186] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:28:28,708] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：账户登录方式[By.xpath://a[text()='账户登录']]
+[2017-01-11 14:35:56,407] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 14:35:56,409] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 14:36:04,431] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:36:07,599] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:36:07,635] ERROR org.webdriver.patatiumwebui.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-01-11 14:36:07,670] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:36:08,784] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 14:36:08,785] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 14:36:08,785] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 14:36:08,786] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:36:09,155] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:36:09,164] ERROR org.webdriver.patatiumwebui.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-01-11 14:36:09,166] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:36:10,051] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 14:36:10,052] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 14:36:10,052] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 14:36:10,053] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:36:10,728] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:36:10,736] ERROR org.webdriver.patatiumwebui.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-01-11 14:36:10,738] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:36:11,600] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 14:36:11,600] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 14:36:11,601] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 14:36:11,601] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 14:36:12,259] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:36:12,267] ERROR org.webdriver.patatiumwebui.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-01-11 14:36:12,268] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:36:13,203] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 14:36:13,204] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 14:36:13,204] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 14:36:15,849] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 14:36:15,891] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 14:36:15,892] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 14:36:24,259] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---start
+[2017-01-11 14:36:26,289] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 14:36:26,297] ERROR org.webdriver.patatiumwebui.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-01-11 14:36:26,300] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 14:36:27,197] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录成功测试0.jpg
+[2017-01-11 14:36:27,198] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-01-11 14:36:27,198] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---end
+[2017-01-11 14:36:27,485] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 14:36:45,973] ERROR org.webdriver.patatiumwebui.utils.SendMail 发送邮件失败！
+[2017-01-11 15:13:56,105] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 15:13:56,111] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 15:14:05,246] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:14:05,725] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 15:14:05,797] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 15:14:05,798] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:14:05,798] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:14:05,799] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:14:06,856] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 15:14:06,958] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 15:14:06,959] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:14:06,959] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:14:06,959] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:14:07,493] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 15:14:07,572] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 15:14:07,573] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:14:07,573] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:14:07,573] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:14:07,764] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 15:14:07,834] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例0.jpg
+[2017-01-11 15:14:07,835] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:14:07,835] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:14:08,315] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 15:14:08,333] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 15:14:08,333] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 15:14:16,515] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---start
+[2017-01-11 15:14:16,521] ERROR org.webdriver.patatiumwebui.utils.TestListener 0
+[2017-01-11 15:14:16,603] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录成功测试0.jpg
+[2017-01-11 15:14:16,603] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-01-11 15:14:16,603] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---end
+[2017-01-11 15:14:17,055] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 15:14:19,867] ERROR org.webdriver.patatiumwebui.utils.SendMail 发送邮件失败！
+[2017-01-11 15:16:10,557] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 15:16:10,558] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 15:16:21,459] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:16:23,715] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 15:16:24,761] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:24,860] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:24,861] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：用户名输入框方式[By.xpath://input[@id='them1-username']]
+[2017-01-11 15:16:24,923] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：用户名输入框[By.xpath://input[@id='them1-username']value:aaa]
+[2017-01-11 15:16:24,923] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:24,949] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:24,949] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:24,986] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：密码输入框[By.xpath://*[@id='password']value:bbb]
+[2017-01-11 15:16:24,986] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：登录按钮方式[By.xpath://button[contains(text(),'登录')]]
+[2017-01-11 15:16:25,082] INFO  org.webdriver.patatiumwebui.utils.ElementAction click元素：登录按钮[By.xpath://button[contains(text(),'登录')]]成功！
+[2017-01-11 15:16:26,082] INFO  org.webdriver.patatiumwebui.utils.Assertion 验证是否出现预期的错误提示信息:账户名与密码不匹配，请重新输入:【Assert验证】:页面是否出现【预期值：账户名与密码不匹配，请重新输入】字符串
+[2017-01-11 15:16:26,123] ERROR org.webdriver.patatiumwebui.utils.Assertion 【Assert验证  failed!】
+[2017-01-11 15:16:27,087] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 151626126.jpg
+[2017-01-11 15:16:27,091] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2017-01-11 15:16:27,959] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例1.jpg
+[2017-01-11 15:16:27,960] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:16:27,960] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:16:27,961] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:16:28,373] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 15:16:29,386] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:29,452] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:29,453] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：用户名输入框方式[By.xpath://input[@id='them1-username']]
+[2017-01-11 15:16:29,490] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：用户名输入框[By.xpath://input[@id='them1-username']value:ccc]
+[2017-01-11 15:16:29,490] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:29,511] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:29,511] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:29,545] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：密码输入框[By.xpath://*[@id='password']value:ddd]
+[2017-01-11 15:16:29,545] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：登录按钮方式[By.xpath://button[contains(text(),'登录')]]
+[2017-01-11 15:16:29,638] INFO  org.webdriver.patatiumwebui.utils.ElementAction click元素：登录按钮[By.xpath://button[contains(text(),'登录')]]成功！
+[2017-01-11 15:16:30,638] INFO  org.webdriver.patatiumwebui.utils.Assertion 验证是否出现预期的错误提示信息:密码不正确:【Assert验证】:页面是否出现【预期值：密码不正确】字符串
+[2017-01-11 15:16:30,663] ERROR org.webdriver.patatiumwebui.utils.Assertion 【Assert验证  failed!】
+[2017-01-11 15:16:31,584] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 151630666.jpg
+[2017-01-11 15:16:31,587] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2017-01-11 15:16:32,418] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例1.jpg
+[2017-01-11 15:16:32,419] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:16:32,419] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:16:32,419] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:16:32,832] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 15:16:33,841] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:33,898] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:33,898] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：用户名输入框方式[By.xpath://input[@id='them1-username']]
+[2017-01-11 15:16:33,936] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：用户名输入框[By.xpath://input[@id='them1-username']value:]
+[2017-01-11 15:16:33,936] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:33,960] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:33,960] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:33,991] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：密码输入框[By.xpath://*[@id='password']value:]
+[2017-01-11 15:16:33,992] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：登录按钮方式[By.xpath://button[contains(text(),'登录')]]
+[2017-01-11 15:16:34,060] INFO  org.webdriver.patatiumwebui.utils.ElementAction click元素：登录按钮[By.xpath://button[contains(text(),'登录')]]成功！
+[2017-01-11 15:16:35,060] INFO  org.webdriver.patatiumwebui.utils.Assertion 验证是否出现预期的错误提示信息:请输入账户名和密码:【Assert验证】:页面是否出现【预期值：请输入账户名和密码】字符串
+[2017-01-11 15:16:35,141] ERROR org.webdriver.patatiumwebui.utils.Assertion 【Assert验证  failed!】
+[2017-01-11 15:16:36,008] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 151635145.jpg
+[2017-01-11 15:16:36,011] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2017-01-11 15:16:36,845] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例1.jpg
+[2017-01-11 15:16:36,846] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:16:36,846] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:16:36,846] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---start
+[2017-01-11 15:16:37,077] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 15:16:38,085] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:38,154] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:38,154] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：用户名输入框方式[By.xpath://input[@id='them1-username']]
+[2017-01-11 15:16:38,193] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：用户名输入框[By.xpath://input[@id='them1-username']value:ddd]
+[2017-01-11 15:16:38,193] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:38,216] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:38,216] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:38,246] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：密码输入框[By.xpath://*[@id='password']value:]
+[2017-01-11 15:16:38,247] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：登录按钮方式[By.xpath://button[contains(text(),'登录')]]
+[2017-01-11 15:16:38,314] INFO  org.webdriver.patatiumwebui.utils.ElementAction click元素：登录按钮[By.xpath://button[contains(text(),'登录')]]成功！
+[2017-01-11 15:16:39,314] INFO  org.webdriver.patatiumwebui.utils.Assertion 验证是否出现预期的错误提示信息:请输入密码:【Assert验证】:页面是否出现【预期值：请输入密码】字符串
+[2017-01-11 15:16:39,332] ERROR org.webdriver.patatiumwebui.utils.Assertion 【Assert验证  failed!】
+[2017-01-11 15:16:40,252] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 151639334.jpg
+[2017-01-11 15:16:40,254] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2017-01-11 15:16:41,075] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录失败用例1.jpg
+[2017-01-11 15:16:41,076] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-01-11 15:16:41,076] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录失败用例---end
+[2017-01-11 15:16:41,443] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 15:16:41,455] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-01-11 15:16:41,455] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 读取testng.xml配置的FirefoxDriver浏览器并将其初始化
+
+[2017-01-11 15:16:51,330] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---start
+[2017-01-11 15:16:52,941] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 打开浏览器，访问http://192.168.1.75:8080/Web/#/login/new/login.aspx网址!
+[2017-01-11 15:16:53,953] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:54,051] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:54,051] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：用户名输入框方式[By.xpath://input[@id='them1-username']]
+[2017-01-11 15:16:54,104] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：用户名输入框[By.xpath://input[@id='them1-username']value:111111]
+[2017-01-11 15:16:54,104] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:54,129] INFO  org.webdriver.patatiumwebui.utils.ElementAction 清除input值:密码输入框[By.xpath://*[@id='password']]
+[2017-01-11 15:16:54,130] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：密码输入框方式[By.xpath://*[@id='password']]
+[2017-01-11 15:16:54,204] INFO  org.webdriver.patatiumwebui.utils.ElementAction input输入：密码输入框[By.xpath://*[@id='password']value:abc123]
+[2017-01-11 15:16:54,204] INFO  org.webdriver.patatiumwebui.utils.ElementAction 查找元素：登录按钮方式[By.xpath://button[contains(text(),'登录')]]
+[2017-01-11 15:16:54,274] INFO  org.webdriver.patatiumwebui.utils.ElementAction click元素：登录按钮[By.xpath://button[contains(text(),'登录')]]成功！
+[2017-01-11 15:16:56,274] INFO  org.webdriver.patatiumwebui.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：jd_845622】字符串
+[2017-01-11 15:16:56,331] ERROR org.webdriver.patatiumwebui.utils.Assertion 【Assert验证  failed!】
+[2017-01-11 15:16:57,182] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\2017-01-11 151656332.jpg
+[2017-01-11 15:16:57,188] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2017-01-11 15:16:58,018] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 错误截图：D:\git\PatatiumWebUI\test-output\snapshot\登录成功测试1.jpg
+[2017-01-11 15:16:58,019] ERROR org.webdriver.patatiumwebui.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-01-11 15:16:58,020] INFO  org.webdriver.patatiumwebui.utils.TestListener 测试用例:登录成功测试---end
+[2017-01-11 15:16:59,881] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-01-11 15:17:01,885] ERROR org.webdriver.patatiumwebui.utils.SendMail 发送邮件失败！

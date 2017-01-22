@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<parameter name="driver" value="FirefoxDriver" /> <!--测试浏览器：支持火狐，谷歌，IE-->
 	<parameter name="nodeURL" value="" /> <!--selenium grid分布式运行node节点url，如不用分布式运行，则留空-->
-	<parameter name="BaseUrl" value="https://passport.jd.com" />  <!-- 测试系统基础Url-->
+	<parameter name="BaseUrl" value="http://192.168.1.75:8080/Web/#/login" />  <!-- 测试系统基础Url-->
 	<parameter name="UserName" value="" /> <!-- 系统登录用户名-->
 	<parameter name="PassWord" value="" />  <!-- 系统登录密码-->
     <parameter name="smtpUserName" value="trexliushao@163.com" />  <!-- 测试报告邮件发送：smtp身份证验证-->
