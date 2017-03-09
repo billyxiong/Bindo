@@ -24,4 +24,34 @@ public class OrderPage {
 	element = driver.findElement(objectMap.getLocator("bindo.order.check_out"));
      return element;
 	}
+	//堂食方式
+	public  WebElement deliver_type() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.delivery_type"));
+     return element;
+	}
+	//输入桌号
+	public  WebElement table_input() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.table_input"));
+     return element;
+	}
+	//下单
+	public  WebElement pay_do() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.do"));
+     return element;
+	}
+	//支付类型
+	public  WebElement pay_type() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.pay_type"));
+     return element;
+	}
+	//支付后下一步
+	public  WebElement pay_next() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.next"));
+     return element;
+	}
+	//支付确认
+	public  WebElement pay_confirm() throws Exception{
+	element = driver.findElement(objectMap.getLocator("bindo.order.confirm"));
+     return element;
+	}
 }

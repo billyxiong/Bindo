@@ -15,14 +15,15 @@ public class Test_Register {
 	public void register() throws Exception{
 		driver.get(baseUrl + "/");
 		Thread.sleep(2000);
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
 		driver.navigate().refresh();
 		(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>(){
 			public Boolean apply(WebDriver d){
-				return	d.findElement(By.xpath("//div/a[contains(text(),'馬上註冊')]")).isDisplayed();
+				return	d.findElement(By.xpath("//*[@id='loginForm']/div[2]/div[4]/div[2]/a")).isDisplayed();
 				
 			}	
 		});
 		Register.execute(driver);
-		Thread.sleep(5000);	
 	}	
 }

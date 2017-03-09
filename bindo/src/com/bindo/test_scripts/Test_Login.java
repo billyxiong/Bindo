@@ -14,6 +14,7 @@ public class Test_Login {
 	public void test_login() throws Exception{
 		driver.get(baseUrl + "/");
 		Thread.sleep(2000);
+		driver.manage().window().maximize();
 		driver.navigate().refresh();
 		(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>(){
 			public Boolean apply(WebDriver d){

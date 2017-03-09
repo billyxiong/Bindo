@@ -14,7 +14,9 @@ public class Test_Order {
 	  @BeforeMethod
 	  public void login() throws Exception{	
 		  driver.get(baseUrl + "/");
+		  Thread.sleep(2000);
 		  driver.manage().window().maximize();
+		  Thread.sleep(2000);
 		  driver.navigate().refresh();
 		  Login.execute(driver);
 	  }

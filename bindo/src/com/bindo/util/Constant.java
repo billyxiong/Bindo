@@ -14,6 +14,8 @@ public class Constant {
 	public static final String username="test001";
 	//定义登录密码常量
 	public static final String pasword="test001";
+	//定义堂食桌号
+	public static final String table_no="120";
 }
 
 
