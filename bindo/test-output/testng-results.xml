@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26639" started-at="2017-03-08T13:17:15Z" finished-at="2017-03-08T13:17:42Z">
+  <suite name="Suite" duration-ms="60564" started-at="2017-03-09T15:22:01Z" finished-at="2017-03-09T15:23:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26639" started-at="2017-03-08T13:17:15Z" finished-at="2017-03-08T13:17:42Z">
-      <class name="com.bindo.test_scripts.Test_Register">
-        <test-method status="PASS" signature="register()[pri:0, instance:com.bindo.test_scripts.Test_Register@5e5d171f]" name="register" duration-ms="26625" started-at="2017-03-08T21:17:15Z" finished-at="2017-03-08T21:17:42Z">
+    <test name="Test" duration-ms="60564" started-at="2017-03-09T15:22:01Z" finished-at="2017-03-09T15:23:01Z">
+      <class name="com.bindo.test_scripts.Test_Total">
+        <test-method status="PASS" signature="open_url()[pri:0, instance:com.bindo.test_scripts.Test_Total@37ceb1df]" name="open_url" is-config="true" duration-ms="16052" started-at="2017-03-09T23:22:01Z" finished-at="2017-03-09T23:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.bindo.test_scripts.Test_Total@37ceb1df]" name="login" duration-ms="2470" started-at="2017-03-09T23:22:17Z" finished-at="2017-03-09T23:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="order()[pri:0, instance:com.bindo.test_scripts.Test_Total@37ceb1df]" name="order" duration-ms="31355" started-at="2017-03-09T23:22:19Z" finished-at="2017-03-09T23:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.bindo.test_scripts.Test_Total@37ceb1df]" name="register" duration-ms="10666" started-at="2017-03-09T23:22:50Z" finished-at="2017-03-09T23:23:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-      </class> <!-- com.bindo.test_scripts.Test_Register -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.bindo.test_scripts.Test_Total -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

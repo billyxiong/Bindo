@@ -23,6 +23,13 @@ public class Order {
 		order.pay_next().click();
 		Thread.sleep(2000);
 		order.pay_confirm().click();
+		Thread.sleep(2000);
+		order.pay_ok().click();
+		Thread.sleep(2000);
+		order.account_button().click();
+		Thread.sleep(2000);
+		order.logout_button().click();
+		
 	}	
 }
 

@@ -11,18 +11,18 @@ public class OrderPage {
 	}	
 	//菜品分类菜单
 	public  WebElement dish_type_link() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.dish_type_link"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.dish_type_link"));
+		return element;
 	}
 	//添加菜品按钮
 	public  WebElement dish_add() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.dish_add"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.dish_add"));
+		return element;
 	}
 	//结帐按钮
 	public  WebElement check_out() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.check_out"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.check_out"));
+		return element;
 	}
 	//堂食方式
 	public  WebElement deliver_type() throws Exception{
@@ -31,8 +31,8 @@ public class OrderPage {
 	}
 	//输入桌号
 	public  WebElement table_input() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.table_input"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.table_input"));
+		return element;
 	}
 	//下单
 	public  WebElement pay_do() throws Exception{
@@ -41,17 +41,32 @@ public class OrderPage {
 	}
 	//支付类型
 	public  WebElement pay_type() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.pay_type"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.pay_type"));
+		return element;
 	}
 	//支付后下一步
 	public  WebElement pay_next() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.next"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.next"));
+		return element;
 	}
 	//支付确认
 	public  WebElement pay_confirm() throws Exception{
-	element = driver.findElement(objectMap.getLocator("bindo.order.confirm"));
-     return element;
+		element = driver.findElement(objectMap.getLocator("bindo.order.confirm"));
+		return element;
+	}
+	//支付完成，点OK
+	public WebElement pay_ok() throws Exception{
+		element = driver.findElement(objectMap.getLocator("bindo.order.ok_button"));
+		return element;
+	}
+	//点击首页上的帐户按钮
+	public WebElement account_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("bindo.order.account_button"));
+		return element;
+	}
+	//点击退出按钮
+	public WebElement logout_button() throws Exception{
+		element = driver.findElement(objectMap.getLocator("bindo.order.logout_buton"));
+		return element;
 	}
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.bindo.test_scripts.Test_Total">
+        <methods>
+          <include name="order"/>
+          <include name="open_url"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.bindo.test_scripts.Test_Total -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

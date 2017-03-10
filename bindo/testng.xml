@@ -3,9 +3,13 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="com.bindo.test_scripts.Test_Register"/>
-      <class name="com.bindo.test_scripts.Test_Order"/>
-      <class name="com.bindo.test_scripts.Test_Login"/>
+		<class name="com.bindo.test_scripts.Test_Total">   
+        	<methods>
+        		<include name="login"/>
+        		<include name="order"/>
+        		<include name="register"/>
+         	</methods>
+       	</class>                 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
