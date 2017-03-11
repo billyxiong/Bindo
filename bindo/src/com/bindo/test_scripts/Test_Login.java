@@ -1,4 +1,4 @@
-﻿package com.bindo.test_scripts;
+package com.bindo.test_scripts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.bindo.modules.Driver_select;
 import com.bindo.modules.Login;
 import com.bindo.util.Constant;
+
 public class Test_Login {
 	WebDriver driver = Driver_select.getDriver();
 	String baseUrl = Constant.url;	
