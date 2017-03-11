@@ -8,7 +8,7 @@ public class Read_properties
 {
 public static String getPropertyString(String key ) {
 
-	String propertyFileName = System.getProperty("user.dir")+"\\config\\Browser_type.properties";      //获得文件路径
+	String propertyFileName = System.getProperty("user.dir")+"/config/Browser_type.properties";      //获得文件路径
    Properties properties = new Properties();
    
    try {
