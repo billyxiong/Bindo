@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
   <test name="Test">
+  <parameter name="remoteNodeUrl" value="http://218.17.70.242:5555/wd/hub"/>
     <classes>
 		<class name="com.bindo.test_scripts.Test_Total">   
         	<methods>
@@ -11,5 +12,5 @@
          	</methods>
        	</class>                 
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite>

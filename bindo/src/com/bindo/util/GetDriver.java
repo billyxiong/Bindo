@@ -32,6 +32,6 @@ public class GetDriver {
 		capability.setBrowserName("firefox");
 		capability.setPlatform(Platform.XP);
 		driver = new RemoteWebDriver(new URL(remoteNodeUrl),capability);
-		return driver;		
+		return driver;			
 	}	
 }

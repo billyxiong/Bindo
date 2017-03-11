@@ -166,6 +166,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;remoteNodeUrl&quot; value=&quot;http://218.17.70.242:5555/wd/hub&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bindo.test_scripts.Test_Total&quot;&gt;
         &lt;methods&gt;
@@ -217,20 +218,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'order')
 data.setCell(0, 2, 'com.bindo.test_scripts.Test_Total')
-data.setCell(0, 3, 31355);
+data.setCell(0, 3, 31059);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'register')
 data.setCell(1, 2, 'com.bindo.test_scripts.Test_Total')
-data.setCell(1, 3, 10666);
+data.setCell(1, 3, 10530);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'com.bindo.test_scripts.Test_Total')
-data.setCell(2, 3, 2470);
+data.setCell(2, 3, 2392);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -263,15 +264,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">16067 ms</span>
+                <span class="method-start">15429 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">order</span>
-                <span class="method-start">18538 ms</span>
+                <span class="method-start">17822 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">register</span>
-                <span class="method-start">49893 ms</span>
+                <span class="method-start">48882 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

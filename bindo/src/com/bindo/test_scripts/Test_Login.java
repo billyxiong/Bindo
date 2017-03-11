@@ -7,12 +7,16 @@ import org.testng.annotations.Test;
 import com.bindo.modules.Driver_select;
 import com.bindo.modules.Login;
 import com.bindo.util.Constant;
+import com.bindo.util.GetDriver;
 
 public class Test_Login {
 	WebDriver driver = Driver_select.getDriver();
+
 	String baseUrl = Constant.url;	
 	@Test
 	public void test_login() throws Exception{
+//		WebDriver driver=GetDriver.getRemoteChromedriver(Constant.remoteNodeUrl);
+		//获取远程浏览器
 		driver.get(baseUrl + "/");
 		Thread.sleep(2000);
 		driver.manage().window().maximize();

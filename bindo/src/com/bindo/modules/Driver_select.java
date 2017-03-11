@@ -12,7 +12,7 @@ public static String value = Read_properties.getPropertyString("BROWSER_TYPE");
 
 public static WebDriver getDriver() {
 if (value.equals("IE")) {
-	System.setProperty("webdriver.ie.driver", "drivers\\IEDriverServer.exe"); 
+	System.setProperty("webdriver.ie.driver", "drivers/IEDriverServer.exe"); 
 DesiredCapabilities ieCapabilities = DesiredCapabilities
 .internetExplorer();
 ieCapabilities
@@ -23,7 +23,7 @@ true);
 return driver = new InternetExplorerDriver(ieCapabilities);
 
 } else if (value.equals("Chrome")) {
-	System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 return driver = new ChromeDriver();
 } else {
 System.setProperty("webdriver.firefox.bin",

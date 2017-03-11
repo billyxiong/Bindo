@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="remoteNodeUrl" value="http://218.17.70.242:5555/wd/hub"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="remoteNodeUrl" value="http://218.17.70.242:5555/wd/hub"/>
     <classes>
-      <class name="com.bindo.test_scripts.Test_Order">
+      <class name="com.bindo.test_scripts.Test_Total">
         <methods>
-          <include name="login"/>
           <include name="order"/>
+          <include name="open_url"/>
+          <include name="register"/>
         </methods>
-      </class> <!-- com.bindo.test_scripts.Test_Order -->
+      </class> <!-- com.bindo.test_scripts.Test_Total -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
