@@ -10,13 +10,13 @@ import com.bindo.util.Constant;
 import com.bindo.util.GetDriver;
 
 public class Test_Total {
-	WebDriver driver = Driver_select.getDriver();  
+//	WebDriver driver = Driver_select.getDriver();  
 	String baseUrl = Constant.url;
 	@BeforeTest
 	public void open_url() throws Exception{
 		
 		  //获取远程浏览器
-//		  driver=GetDriver.getRemoteChromedriver(Constant.remoteNodeUrl);
+		  WebDriver driver=GetDriver.getRemoteChromedriver();
 		  driver.get(baseUrl + "/");
 		  Thread.sleep(2000);
 		  driver.manage().window().maximize();
@@ -26,14 +26,17 @@ public class Test_Total {
 	
 	  @Test
 	  public void login() throws Exception{	
+		  WebDriver driver=GetDriver.getRemoteChromedriver();
 		  Login.execute(driver);
 	  }
 	  @Test
 	  public void order() throws Exception {
+		  WebDriver driver=GetDriver.getRemoteChromedriver();
 		  Order.execute(driver);	  
 	  }	
 	  @Test
 	  public void register() throws Exception{
+		  WebDriver driver=GetDriver.getRemoteChromedriver();
 		  Register.execute(driver);
 	  }
 
