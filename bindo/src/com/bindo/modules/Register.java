@@ -8,7 +8,7 @@ public class Register {
 		Thread.sleep(5000);
 		register.register_link().click();
 		Thread.sleep(5000);
-		register.name_input().sendKeys(Constant.username);
+//		register.name_input().sendKeys(Constant.username);
 		register.email_input().sendKeys(Constant.email);
 		register.password_input().sendKeys(Constant.pasword);
 		register.repeat_password().sendKeys(Constant.pasword);
