@@ -23,7 +23,7 @@ public class Test_Register {
 		driver.navigate().refresh();
 		(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>(){
 			public Boolean apply(WebDriver d){
-				return	d.findElement(By.xpath("//*[@id='loginForm']/div[2]/div[4]/div[2]/a")).isDisplayed();
+				return	d.findElement(By.xpath("//b[contains(text(),'马上注册')]/parent::a")).isDisplayed();
 				
 			}	
 		});
