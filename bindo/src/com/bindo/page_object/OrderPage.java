@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import com.bindo.util.ObjectMap;
 public class OrderPage {
 	private WebElement element = null;
-	private ObjectMap objectMap = new ObjectMap(System.getProperty("user.dir")+"\\config\\objectMap.properties");
+	private ObjectMap objectMap = new ObjectMap(System.getProperty("user.dir")+"/config/objectMap.properties");
 	private WebDriver driver;	
 	public OrderPage(WebDriver driver){
 		this.driver = driver;
