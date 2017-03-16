@@ -23,7 +23,7 @@ public class Order {
 		Thread.sleep(2000);
 		order.pay_type().click();
 		Thread.sleep(2000);
-		order.pay_next().click();
+//		order.pay_next().click();
 		Thread.sleep(2000);
 		order.pay_confirm().click();
 		Thread.sleep(5000);
