@@ -5,7 +5,7 @@ import com.bindo.util.ObjectMap;
 
 public class RegisterPage {
 	private WebElement element = null;
-	private ObjectMap objectMap = new ObjectMap(System.getProperty("user.dir")+"\\config\\objectMap.properties");
+	private ObjectMap objectMap = new ObjectMap(System.getProperty("user.dir")+"/config/objectMap.properties");
 	private WebDriver driver;
 	
 	public RegisterPage(WebDriver driver){

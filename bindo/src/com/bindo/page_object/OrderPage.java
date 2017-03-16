@@ -45,10 +45,10 @@ public class OrderPage {
 		return element;
 	}
 	//支付后下一步
-	public  WebElement pay_next() throws Exception{
-		element = driver.findElement(objectMap.getLocator("bindo.order.next"));
-		return element;
-	}
+//	public  WebElement pay_next() throws Exception{
+//		element = driver.findElement(objectMap.getLocator("bindo.order.next"));
+//		return element;
+//	}
 	//支付确认
 	public  WebElement pay_confirm() throws Exception{
 		element = driver.findElement(objectMap.getLocator("bindo.order.confirm"));
