@@ -21,12 +21,13 @@ public class Test_Register {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.navigate().refresh();
-		(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>(){
-			public Boolean apply(WebDriver d){
-				return	d.findElement(By.xpath("//b[contains(text(),'马上注册')]/parent::a")).isDisplayed();
-				
-			}	
-		});
+//		(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>(){
+//			public Boolean apply(WebDriver d){
+//				return	d.findElement(By.xpath("//b[contains(text(),'马上注册')]/parent::a")).isDisplayed();
+//				
+//			}	
+//		});
+		Thread.sleep(2000);
 		Register.execute(driver);
 	}	
 }
